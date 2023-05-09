@@ -1,0 +1,305 @@
+body {
+    /* font-family: 'Instrument Serif', serif; */
+    font-size: 16px;
+    margin: 40px 35px;
+
+}
+
+.first {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/* The style of BOX 1,2,3,4,*/
+.item1 {
+    background-color: #9AB8BA;
+    border-radius: 5px;
+    border: 1px solid rgb(207, 200, 200);
+    width: 476px;
+    height: 274px;
+
+}
+
+/* This is the css for the BOX NO 1*/
+.fi {
+    display: flex;
+    font-size: 175px;
+    margin-top: 40px;
+}
+
+#pngs {
+    font-size: 22px;
+    position: relative;
+    top: -9px;
+    margin: 11px 36px;
+}
+
+/* This is css for second-2 box */
+.item2 {
+    background-color: #9AB8BA;
+    border-radius: 5px;
+    border: 1px solid rgb(207, 200, 200);
+    width: 66%;
+}
+
+#location {
+    color: rgb(57 53 222);
+    font-size: 17px;
+    width: 80px;
+    margin: -6% 26%;
+}
+
+#branch {
+    margin: 45px 35px;
+}
+
+.box2 h4 {
+    position: relative;
+    top: -8px;
+    left: 33px;
+    font-size: 18px;
+}
+
+#prn {
+    margin-top: -20px;
+}
+
+.contact ul {
+    display: flex;  
+}
+
+.contact li {
+    text-decoration: none;
+    margin: 5px 79px;
+    color: #9AB8BA;
+    padding: 8px 22px; 
+    border-radius: 6px;
+    background: #0e5e7e;
+    transition: all 0.2s ease;
+}
+
+.contact li a {
+    text-decoration: none;
+    margin: 20px;
+    color:white;
+}
+
+.contact:active {
+    transform: scale(0.96);
+   
+}
+
+
+/*Box 3 additinal css will be usign in this side */
+.item3 {
+    background-color: #9AB8BA;
+    border-radius: 5px;
+    border: 1px solid rgb(207, 200, 200);
+    width: 33%;
+    margin-top: -9px;
+    height: 28em;
+}
+
+#addres {
+    margin: 23px 22px;
+}
+
+#addres h4 {
+    font-size: 21px;
+}
+
+.section {
+    position: relative;
+    top: -35px
+}
+
+.accordion {
+    background-color: #16555a;
+    color: #ede7e7;
+    margin: 9px -1px;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.btn {
+    border: none;
+    position: relative;
+    left: 335px;
+    top: -103px;
+    background: #0e5e7e;
+    color: white;
+    padding: 7px;
+    border-radius: 6px;
+    font-size: 17px;
+    width: 76px;
+}
+
+
+/*Box 4 additinal css will be usign in this side */
+.item4 {
+    margin-left: 10px;
+    background-color: #9AB8BA;
+    border-radius: 5px;
+    border: 1px solid rgb(207, 200, 200);
+    width: 66%;
+    margin-top: -10px
+}
+
+body {
+    font-family: Arial;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #16555a;
+    border-radius: 7px;
+    width: 100%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 16px 48px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #547a87;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #0d2c2a;
+    border-radius: 3px;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    margin-left: 10px;
+}
+
+/* CONTACT DETAILS */
+
+.contact-id {
+    margin: 22px 58px;
+    padding: 11px;
+    display: block;
+
+}
+
+#head {
+    position: relative;
+    top: 10px;
+}
+
+.contdetail {
+    position: relative;
+    top: -30px;
+    left: 138px;
+}
+
+/* PREAVIOUS DEATAILS*/
+.predatail {
+    font-size: 20px;
+
+}
+
+#predatail {
+
+    position: relative;
+    top: 10px;
+
+}
+
+.basicdetail {
+    position: relative;
+    top: -30px;
+    left: 135px;
+}
+#abstudent{
+    float: right;
+    position: relative;
+    top: -59px;
+    right: 370px;
+}
+.para{
+    float: right;
+    width: 54%;
+    margin: 3px -123px;
+}
+#about{
+position: relative;
+top: 46px;
+
+}
+.aboutpara{
+    width: 96%;
+    margin: 1px;
+    position: relative;
+    top: 33px;
+}
+#corsdeta {
+    margin: 10px;
+
+
+}
+.courdedetal {
+    position: relative;
+    top: -28px;
+    left: 160px;
+}
